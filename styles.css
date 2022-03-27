@@ -1,0 +1,46 @@
+body { 
+    margin: 0; 
+    padding: 0;
+}
+
+#map { 
+    position: absolute; 
+    top: 0; 
+    bottom: 0; 
+    width: 100%;
+}
+
+.map-overlay {
+    position: absolute;
+    left: 0;
+    padding: 10px;
+}
+
+button {
+    font-size: 1.25em;
+    padding: 15px 30px 15px 30px;
+    background: lightcyan;
+    margin: 30px 30px 15px 30px;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 100px;
+}
+
+.marker {
+    background-image: url('./images/marker.png');
+    width: 100px;
+    height: 100px;
+    display: block;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    padding: 0;
+}
+
+.bus {
+    background-image: url('./images/bus.png');
+    height: 25px;
+    width: 25px;
+    background-size: cover;
+    border-radius: 50%;
+    cursor: pointer;
+}
